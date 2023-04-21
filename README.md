@@ -12,7 +12,7 @@ module "ecs_iam_role" {
 
   resources = [
     "arn:aws:s3:::my-bucket/*",
-    "arn:aws:sqs:us-west-2:123456789012:my-queue"
+    "arn:aws:sqs:us-east-1:123456789012:my-queue"
   ]
 
   permissions = [
