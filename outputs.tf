@@ -1,6 +1,6 @@
 output "iam_role_arn" {
   description = "ARN of the IAM Role"
-  value       = aws_iam_role.ecs_task_execution_role.arn
+  value       = aws_iam_role.dynamic_role.arn
 }
 
 output "dynamic_policy_arn" {
